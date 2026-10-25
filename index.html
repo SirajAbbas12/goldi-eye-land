@@ -21,6 +21,7 @@
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans antialiased">
+    <!-- Sticky Header -->
     <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center space-x-3">
@@ -40,19 +41,102 @@
             </div>
         </div>
     </header>
-    <section class="relative bg-primary text-white py-20 lg:py-28 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+
+    <!-- Hero Section -->
+    <section class="relative bg-primary text-white py-16 lg:py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="max-w-3xl">
-                <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight mb-6">
+                <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight mb-4">
                     Clear Vision, Perfect Fit & Expert Eye Care
                 </h2>
-                <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+                <p class="text-base text-slate-300 mb-6 leading-relaxed">
                     Professional eye testing with specialist doctors and an exclusive collection of branded frames in Behala Chowrastha, Kolkata.
                 </p>
                 <a href="https://wa.me/919748870249" class="bg-accent text-white font-medium px-6 py-3 rounded-xl inline-block">Contact on WhatsApp</a>
             </div>
         </div>
     </section>
+
+    <!-- Doctor Schedule Section -->
+    <section class="py-12 bg-white border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-xl mx-auto mb-8">
+                <h3 class="text-2xl font-bold text-primary mb-2">Expert Eye Consultation</h3>
+                <p class="text-slate-600 text-sm">Visit our clinic for advanced eye checkup and vision testing.</p>
+            </div>
+            <div class="max-w-md mx-auto bg-slate-50 border border-slate-200 rounded-2xl p-6 shadow-sm">
+                <div class="flex items-center space-x-4 mb-4">
+                    <div class="bg-accent/10 p-3 rounded-xl text-accent">
+                        <i data-lucide="stethoscope" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-primary text-lg">Dr. Suman Ghosh</h4>
+                        <p class="text-xs text-slate-500">Eye Specialist / Optometrist</p>
+                    </div>
+                </div>
+                <div class="border-t border-slate-200 pt-4 space-y-2 text-sm text-slate-600">
+                    <div class="flex justify-between">
+                        <span class="font-medium text-slate-700">Days Active:</span>
+                        <span>Monday – Saturday</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span class="font-medium text-slate-700">Clinic Timing:</span>
+                        <span>10:30 AM – 9:00 PM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Branded Frames Section -->
+    <section class="py-12 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-8 text-center">
+                <h3 class="text-2xl font-bold text-primary mb-2">Featured Branded Frames</h3>
+                <p class="text-slate-600 text-sm">Ray-Ban • Bandit • Imported Collections</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                    <h4 class="font-bold text-primary text-lg mb-1">Classic Aviator Frame</h4>
+                    <p class="text-xs text-slate-500 mb-4">Premium metal finish with lightweight build.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-accent">₹ 1,499</span>
+                        <a href="https://wa.me/919748870249?text=I%20want%20Classic%20Aviator" class="bg-whatsapp text-white px-3 py-2 rounded-xl text-xs font-medium">Enquire</a>
+                    </div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                    <h4 class="font-bold text-primary text-lg mb-1">Bandit Bold Square</h4>
+                    <p class="text-xs text-slate-500 mb-4">Modern acetate frame for daily wear.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-accent">₹ 1,299</span>
+                        <a href="https://wa.me/919748870249?text=I%20want%20Bandit%20Square" class="bg-whatsapp text-white px-3 py-2 rounded-xl text-xs font-medium">Enquire</a>
+                    </div>
+                </div>
+                <div class="bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+                    <h4 class="font-bold text-primary text-lg mb-1">Titanium Rimless</h4>
+                    <p class="text-xs text-slate-500 mb-4">Ultra-lightweight flexible design.</p>
+                    <div class="flex items-center justify-between">
+                        <span class="font-bold text-accent">₹ 1,899</span>
+                        <a href="https://wa.me/919748870249?text=I%20want%20Rimless" class="bg-whatsapp text-white px-3 py-2 rounded-xl text-xs font-medium">Enquire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="py-12 bg-white border-t border-slate-200 text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-xl font-bold text-primary mb-2">Visit Our Store</h3>
+            <p class="text-sm text-slate-600 mb-4">675/1, Raja Rammohan Roy Rd, Chowrastha, Kolkata - 700008</p>
+            <a href="https://maps.google.com/?q=675/1+Raja+Rammohan+Roy+Rd+Chowrastha+Kolkata" target="_blank" class="inline-block bg-accent text-white px-6 py-2.5 rounded-xl text-sm font-medium">Open in Google Maps</a>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-slate-400 py-6 text-center text-xs">
+        <p>&copy; 2026 Goldi Eye Land. All rights reserved.</p>
+    </footer>
+
     <script>lucide.createIcons();</script>
 </body>
 </html>
