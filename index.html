@@ -20,23 +20,28 @@
         }
     </script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .brand-font { font-family: 'Playfair Display', serif; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+<body class="bg-slate-950 text-slate-100 antialiased">
     <!-- Top Bar -->
     <div class="bg-blue-600 text-white text-xs py-2 text-center font-medium">
         📍 Behala Chowrastha, Kolkata | 🕒 Open Mon-Sat: 10:30 AM - 9:00 PM
     </div>
 
-    <!-- Sticky Header -->
-    <header class="sticky top-0 z-50 bg-slate-900/90 backdrop-blur-md border-b border-slate-800">
+    <!-- Sticky Header with Professional Logo -->
+    <header class="sticky top-0 z-50 bg-slate-900/95 backdrop-blur-md border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div class="bg-blue-600/20 p-2.5 rounded-xl text-blue-500 border border-blue-500/30">
+            <div class="flex items-center space-x-3.5">
+                <div class="bg-gradient-to-br from-blue-600 to-blue-800 p-2.5 rounded-2xl text-white shadow-lg shadow-blue-600/30 border border-blue-400/30 flex items-center justify-center">
                     <i data-lucide="eye" class="w-6 h-6"></i>
                 </div>
                 <div>
-                    <h1 class="text-xl font-extrabold tracking-tight text-white">Goldi Eye Land</h1>
-                    <p class="text-xs text-blue-400 font-medium">Advanced Eye Care & Optics</p>
+                    <span class="brand-font text-2xl font-black tracking-wider text-white block leading-none">GOLDI EYE LAND</span>
+                    <span class="text-[10px] text-blue-400 font-bold tracking-widest uppercase block mt-1">Advanced Eye Care & Optics</span>
                 </div>
             </div>
             <div>
@@ -48,48 +53,47 @@
         </div>
     </header>
 
-    <!-- Hero Section with Store Showcase -->
+    <!-- Hero Section with Store Showcase & Stylish Heading -->
     <section class="relative bg-gradient-to-b from-slate-900 to-slate-950 text-white py-16 lg:py-24 overflow-hidden border-b border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div class="space-y-6">
-                    <div class="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/30 px-3 py-1.5 rounded-full text-blue-400 text-xs font-semibold">
+                    <div class="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/30 px-3.5 py-1.5 rounded-full text-blue-400 text-xs font-semibold">
                         <i data-lucide="award" class="w-4 h-4 text-blue-400"></i>
                         <span>Rated 4.8 Stars by Local Customers in Behala</span>
                     </div>
-                    <h2 class="text-4xl sm:text-5xl font-black tracking-tight leading-tight">
-                        Crystal Clear Vision & <span class="text-blue-500">HOYA Branded Lenses</span>
+                    <h2 class="text-4xl sm:text-6xl font-black tracking-tight leading-tight brand-font text-white">
+                        Crystal Clear Vision & <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-600">HOYA Branded Lenses</span>
                     </h2>
-                    <p class="text-base text-slate-300 leading-relaxed">
+                    <p class="text-base text-slate-300 leading-relaxed font-normal">
                         Experience state-of-the-art computerized eye testing, expert doctor consultation, and exclusive collections of premium designer eyewear right at Behala Chowrastha.
                     </p>
                     <div class="flex flex-wrap gap-4 pt-2">
-                        <a href="https://wa.me/919748870249?text=Hello%2C%20I%20want%20to%20explore%20branded%20frames." class="bg-accent hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-xl transition shadow-lg shadow-blue-600/30 flex items-center space-x-2">
+                        <a href="https://wa.me/919748870249?text=Hello%2C%20I%20want%20to%20explore%20branded%20frames." class="bg-accent hover:bg-blue-700 text-white font-semibold px-6 py-3.5 rounded-xl transition shadow-lg shadow-blue-600/30 flex items-center space-x-2">
                             <span>Explore Catalog</span>
                             <i data-lucide="arrow-right" class="w-4 h-4"></i>
                         </a>
-                        <a href="tel:9748870249" class="bg-slate-900 hover:bg-slate-800 text-slate-200 font-semibold px-6 py-3 rounded-xl transition border border-slate-700 flex items-center space-x-2">
+                        <a href="tel:9748870249" class="bg-slate-900 hover:bg-slate-800 text-slate-200 font-semibold px-6 py-3.5 rounded-xl transition border border-slate-700 flex items-center space-x-2">
                             <i data-lucide="phone" class="w-4 h-4 text-blue-400"></i>
                             <span>Call Store</span>
                         </a>
                     </div>
                 </div>
-                <!-- Real Store Showcase Card -->
-                <div class="bg-slate-900 border border-slate-800 rounded-3xl p-4 shadow-2xl relative">
-                    <div class="absolute -top-3 right-6 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-md z-10">
+                <!-- Real Store Showcase Card with Generated Interior Mockup -->
+                <div class="bg-slate-900 border border-slate-800 rounded-3xl p-4 shadow-2xl relative group">
+                    <div class="absolute -top-3 right-6 bg-blue-600 text-white text-xs font-bold px-3.5 py-1 rounded-full shadow-md z-10">
                         Live Store View
                     </div>
                     <div class="h-80 bg-slate-800 rounded-2xl overflow-hidden flex items-center justify-center border border-slate-700 relative">
-                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/30 to-transparent z-10"></div>
-                        <div class="absolute inset-0 flex items-center justify-center opacity-30">
-                            <i data-lucide="store" class="w-48 h-48 text-blue-400"></i>
-                        </div>
-                        <div class="text-center p-6 z-20 space-y-3">
-                            <div class="w-14 h-14 bg-blue-600/30 text-blue-400 rounded-2xl mx-auto flex items-center border border-blue-500/40 justify-center backdrop-blur-sm">
-                                <i data-lucide="check-circle" class="w-7 h-7"></i>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent z-10"></div>
+                        <!-- Displaying the agreed store interior preview concept -->
+                        <img src="https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?q=80&w=1000&auto=format&fit=crop" alt="Goldi Eye Land Interior" class="absolute inset-0 w-full h-full object-cover opacity-60 group-hover:scale-105 transition duration-500">
+                        <div class="text-center p-6 z-20 space-y-2">
+                            <div class="w-12 h-12 bg-blue-600/80 text-white rounded-xl mx-auto flex items-center border border-blue-400/40 justify-center backdrop-blur-md shadow-lg">
+                                <i data-lucide="store" class="w-6 h-6"></i>
                             </div>
-                            <h4 class="font-bold text-white text-lg">Goldi Eye Land Interior & Reception</h4>
-                            <p class="text-xs text-slate-300 max-w-xs mx-auto">Featuring HOYA Full Control Lenses & Premium Display Counters.</p>
+                            <h4 class="brand-font font-bold text-white text-xl tracking-wide">Goldi Eye Land</h4>
+                            <p class="text-xs text-blue-200 font-medium">RECEPTION & HOYA LENSES STUDIO • BEHALA</p>
                         </div>
                     </div>
                 </div>
@@ -103,7 +107,7 @@
             <div class="bg-gradient-to-r from-blue-950/60 to-slate-900 border border-blue-500/30 rounded-3xl p-8 lg:p-12 shadow-2xl flex flex-col lg:flex-row items-center justify-between gap-8">
                 <div class="space-y-4 max-w-xl">
                     <div class="inline-block bg-blue-600/20 text-blue-400 text-xs font-bold px-3 py-1 rounded-lg uppercase tracking-wider">Expert Ophthalmologic Care</div>
-                    <h3 class="text-3xl font-bold text-white">Consult Dr. Suman Ghosh</h3>
+                    <h3 class="text-3xl font-bold text-white brand-font">Consult Dr. Suman Ghosh</h3>
                     <p class="text-slate-300 text-sm leading-relaxed">
                         Get comprehensive vision assessments, power checkups, and eye health screenings with advanced clinical precision.
                     </p>
@@ -132,7 +136,7 @@
     <section class="py-20 bg-slate-950">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-2xl mx-auto mb-16">
-                <h3 class="text-3xl font-extrabold text-white mb-4">Exclusive Frame Collection</h3>
+                <h3 class="text-3xl font-extrabold text-white mb-4 brand-font">Exclusive Frame Collection</h3>
                 <p class="text-slate-400 text-sm">Handcrafted durability meets modern aesthetics. Ray-Ban, Bandit & Imported styles.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -196,7 +200,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div class="space-y-6">
                     <div class="inline-block bg-blue-600/20 text-blue-400 text-xs font-bold px-3 py-1 rounded-lg uppercase">Store Location</div>
-                    <h3 class="text-3xl font-extrabold text-white">Visit Goldi Eye Land Today</h3>
+                    <h3 class="text-3xl font-extrabold text-white brand-font">Visit Goldi Eye Land Today</h3>
                     <p class="text-slate-300 text-sm leading-relaxed">
                         Conveniently located opposite Ekata Sangha Math in Behala Chowrastha. Drop by for free frame adjustments and expert optical guidance.
                     </p>
@@ -221,7 +225,7 @@
                     <div class="w-16 h-16 bg-blue-600/20 text-blue-400 rounded-2xl mx-auto flex items-center justify-center border border-blue-500/30">
                         <i data-lucide="map" class="w-8 h-8"></i>
                     </div>
-                    <h4 class="text-xl font-bold text-white">Behala Chowrastha Hub</h4>
+                    <h4 class="text-xl font-bold text-white brand-font">Behala Chowrastha Hub</h4>
                     <p class="text-xs text-slate-400">Easy road connectivity and accessible parking right outside the store.</p>
                     <div class="pt-4 border-t border-slate-800 flex justify-center space-x-4">
                         <span class="text-xs bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-lg text-slate-300">Eye Testing Available</span>
